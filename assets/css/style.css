@@ -1410,12 +1410,6 @@ section {
   cursor: pointer;
   transition: all 0.2s ease;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-overflow: hidden;
-text-overflow: ellipsis;
 }
 
 .wander-tab span {
@@ -1423,7 +1417,6 @@ text-overflow: ellipsis;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .wander-tab svg {
   width: 13px;
   height: 13px;
@@ -1773,7 +1766,6 @@ text-overflow: ellipsis;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .dest-card-info h4 {
   font-family: var(--f-display);
   font-size: 1rem;
