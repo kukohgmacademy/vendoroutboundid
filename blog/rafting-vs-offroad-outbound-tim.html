@@ -373,7 +373,7 @@
 
             <!-- MANDATORY COMPARISON TABLE (GEO) -->
             <div class="table-responsive" style="overflow-x:auto;margin:24px 0;">
-              <table style="width:100%;border-collapse:collapse;font-size:0.95rem;background:#FFFFFF;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+              <table class="table-custom" style="width:100%;border-collapse:collapse;font-size:0.95rem;background:#FFFFFF;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
                 <thead>
                   <tr style="background:var(--c-maroon);color:#FFFFFF;text-align:left;">
                     <th style="padding:14px 16px;border:1px solid rgba(255,255,255,0.15);">Aspek Evaluasi</th>
@@ -383,29 +383,29 @@
                 </thead>
                 <tbody>
                   <tr style="border-bottom:1px solid #EEEEEE;">
-                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);">Lingkungan Utama</td>
-                    <td style="padding:12px 16px;">Sungai alam berbatu dan berarus deras</td>
-                    <td style="padding:12px 16px;">Jalur darat perbukitan, tanah, dan lumpur</td>
+                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);" data-label="Aspek Evaluasi">Lingkungan Utama</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Rafting (Arung Jeram)">Sungai alam berbatu dan berarus deras</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Jeep Offroad">Jalur darat perbukitan, tanah, dan lumpur</td>
                   </tr>
                   <tr style="background:#F9F9F9;border-bottom:1px solid #EEEEEE;">
-                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);">Fokus Pengalaman</td>
-                    <td style="padding:12px 16px;">Tantangan air, kekompakan mendayung, sinergi</td>
-                    <td style="padding:12px 16px;">Adventure medan terjal, ketahanan, panorama</td>
+                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);" data-label="Aspek Evaluasi">Fokus Pengalaman</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Rafting (Arung Jeram)">Tantangan air, kekompakan mendayung, sinergi</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Jeep Offroad">Adventure medan terjal, ketahanan, panorama</td>
                   </tr>
                   <tr style="border-bottom:1px solid #EEEEEE;">
-                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);">Karakter Aktivitas</td>
-                    <td style="padding:12px 16px;">Dinamis aktif (seluruh peserta mendayung)</td>
-                    <td style="padding:12px 16px;">Dinamis pasif (peserta menikmati manuver jeep)</td>
+                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);" data-label="Aspek Evaluasi">Karakter Aktivitas</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Rafting (Arung Jeram)">Dinamis aktif (seluruh peserta mendayung)</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Jeep Offroad">Dinamis pasif (peserta menikmati manuver jeep)</td>
                   </tr>
                   <tr style="background:#F9F9F9;border-bottom:1px solid #EEEEEE;">
-                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);">Pertimbangan Utama</td>
-                    <td style="padding:12px 16px;">Kondisi debit sungai, kesiapan basah-basahan</td>
-                    <td style="padding:12px 16px;">Kondisi jalur cuaca, kesiapan guncangan fisik</td>
+                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);" data-label="Aspek Evaluasi">Pertimbangan Utama</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Rafting (Arung Jeram)">Kondisi debit sungai, kesiapan basah-basahan</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Jeep Offroad">Kondisi jalur cuaca, kesiapan guncangan fisik</td>
                   </tr>
                   <tr>
-                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);">Cocok Untuk</td>
-                    <td style="padding:12px 16px;">Tim muda energik yang menyukai aktivitas air</td>
-                    <td style="padding:12px 16px;">Tim lintas usia yang menyukai petualangan darat</td>
+                    <td style="padding:12px 16px;font-weight:700;color:var(--c-maroon-dark);" data-label="Aspek Evaluasi">Cocok Untuk</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Rafting (Arung Jeram)">Tim muda energik yang menyukai aktivitas air</td>
+                    <td style="padding:12px 16px;" data-label="Wisata Jeep Offroad">Tim lintas usia yang menyukai petualangan darat</td>
                   </tr>
                 </tbody>
               </table>
@@ -438,14 +438,11 @@
             <p>Jika prioritas utama adalah melatih sinkronisasi gerak dan kerja sama langsung dalam memecahkan rintangan alam, rafting adalah opsi yang sangat bertenaga. Namun, jika tim menginginkan petualangan santai berpanorama megah yang dapat dinikmati bersama oleh staf dari berbagai rentang usia, offroad jeep adalah alternatif yang sangat menarik.</p>
 
             <!-- CALL TO ACTION BANNER -->
-            <div class="cta-band" style="background:linear-gradient(135deg, var(--c-maroon-dark) 0%, #4A0C1A 100%);border-radius:16px;padding:32px;margin:40px 0;color:#FFFFFF;">
-              <h3 style="color:#FFFFFF;margin:0 0 10px 0;font-size:1.35rem;">Bingung Memilih Rute Petualangan yang Tepat?</h3>
-              <p style="color:rgba(255,255,255,0.85);margin:0 0 20px 0;font-size:0.95rem;">
-                Tanyakan rute offroad dan arung jeram teraman untuk tim Anda di +62 82211221909. Kami siap membantu memetakan pilihan terbaik.
-              </p>
-              <a href="https://wa.me/6282211221909?text=Halo%20Vendor%20Outbound%2C%20saya%20ingin%20tanya%20perbandingan%20rute%20rafting%20dan%20offroad%20untuk%20tim%20kantor."
-                target="_blank" rel="noopener" class="btn btn-primary btn-wa" style="background:#25D366;color:#FFFFFF;border:none;padding:12px 24px;border-radius:50px;font-weight:700;display:inline-flex;align-items:center;gap:8px;text-decoration:none;">
-                <i class="fab fa-whatsapp" style="font-size:1.2rem;"></i> Konsultasi via WhatsApp
+            <div class="cta-band">
+              <h3>Bingung Memilih Rute Petualangan yang Tepat?</h3>
+              <p>Tanyakan rute offroad dan arung jeram teraman untuk tim Anda di +62 82211221909. Kami siap membantu memetakan pilihan terbaik.</p>
+              <a href="https://wa.me/6282211221909?text=Halo%20Vendor%20Outbound%2C%20saya%20ingin%20tanya%20perbandingan%20rute%20rafting%20dan%20offroad%20untuk%20tim%20kantor." target="_blank" rel="noopener" class="btn btn-wa">
+                <i class="fab fa-whatsapp"></i> Hubungi Kami via WhatsApp
               </a>
             </div>
 
