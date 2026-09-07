@@ -12423,6 +12423,7 @@ html.reveal-ready .reveal-item.is-revealed {
 .cta-band .btn-wa,
 .cta-band--editorial .btn-wa {
   display: inline-flex !important;
+  flex-direction: row !important;
   align-items: center !important;
   justify-content: center !important;
   gap: 10px !important;
@@ -12430,20 +12431,22 @@ html.reveal-ready .reveal-item.is-revealed {
   color: #FFFFFF !important;
   border: 2px solid #A2F4C5 !important;
   box-shadow: 0 6px 22px rgba(21, 155, 88, 0.4) !important;
-  padding: 14px 28px !important;
+  padding: 14px 32px !important;
   border-radius: 999px !important;
   font-family: var(--f-display, inherit) !important;
-  font-size: 0.95rem !important;
+  font-size: 0.98rem !important;
   font-weight: 800 !important;
   text-decoration: none !important;
   text-align: center !important;
-  line-height: 1.3 !important;
+  line-height: 1 !important;
   box-sizing: border-box !important;
+  width: auto !important;
+  min-width: fit-content !important;
   max-width: 100% !important;
-  white-space: normal !important;
-  word-break: break-word !important;
+  white-space: nowrap !important;
   transition: all 0.25s ease !important;
   animation: none !important;
+  position: relative !important;
 }
 
 .cta-band a.btn:hover,
@@ -12458,16 +12461,46 @@ html.reveal-ready .reveal-item.is-revealed {
 
 .cta-band a.btn i,
 .cta-band a.btn-wa i,
+.cta-band a.btn-cta-white i,
+.cta-band .btn-wa i,
+.cta-band--editorial .btn-wa i {
+  font-size: 1.25rem !important;
+  line-height: 1 !important;
+  width: 22px !important;
+  height: 22px !important;
+  flex-shrink: 0 !important;
+  color: #FFFFFF !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
 .cta-band a.btn svg,
 .cta-band a.btn-wa svg,
-.cta-band--editorial .btn-wa i,
+.cta-band a.btn-cta-white svg,
+.cta-band .btn-wa svg,
 .cta-band--editorial .btn-wa svg {
-  font-size: 1.25rem !important;
-  width: auto !important;
-  height: auto !important;
+  width: 22px !important;
+  height: 22px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
+  max-width: 22px !important;
+  max-height: 22px !important;
   flex-shrink: 0 !important;
   color: #FFFFFF !important;
   fill: #FFFFFF !important;
+  display: inline-block !important;
+}
+
+.cta-band a.btn span,
+.cta-band a.btn-wa span,
+.cta-band .btn-wa span,
+.cta-band--editorial .btn-wa span {
+  white-space: nowrap !important;
+  display: inline-block !important;
+  flex-shrink: 0 !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
 }
 
 /* Mobile Adjustments for CTA Bands */
@@ -12476,16 +12509,16 @@ html.reveal-ready .reveal-item.is-revealed {
   .article-content .cta-band,
   .article-main .cta-band,
   .cta-band--editorial {
-    padding: 24px 18px !important;
-    margin: 28px 0 !important;
-    border-radius: 16px !important;
+    padding: 28px 20px !important;
+    margin: 32px 0 !important;
+    border-radius: 18px !important;
   }
 
   .cta-band h2,
   .cta-band h3,
   .cta-band--editorial h2,
   .cta-band--editorial h3 {
-    font-size: 1.18rem !important;
+    font-size: 1.22rem !important;
     margin-bottom: 8px !important;
   }
 
@@ -12493,7 +12526,7 @@ html.reveal-ready .reveal-item.is-revealed {
   .cta-band--editorial p {
     font-size: 0.88rem !important;
     line-height: 1.55 !important;
-    margin-bottom: 18px !important;
+    margin-bottom: 20px !important;
   }
 
   .cta-band a.btn,
@@ -12501,9 +12534,11 @@ html.reveal-ready .reveal-item.is-revealed {
   .cta-band a.btn-wa,
   .cta-band .btn-wa,
   .cta-band--editorial .btn-wa {
-    width: 100% !important;
-    padding: 13px 18px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    padding: 13px 26px !important;
     font-size: 0.92rem !important;
+    white-space: nowrap !important;
   }
 }
 
@@ -12512,7 +12547,7 @@ html.reveal-ready .reveal-item.is-revealed {
   .article-content .cta-band,
   .article-main .cta-band,
   .cta-band--editorial {
-    padding: 20px 16px !important;
+    padding: 22px 16px !important;
     margin: 24px 0 !important;
   }
 
@@ -12520,7 +12555,7 @@ html.reveal-ready .reveal-item.is-revealed {
   .cta-band h3,
   .cta-band--editorial h2,
   .cta-band--editorial h3 {
-    font-size: 1.08rem !important;
+    font-size: 1.1rem !important;
     line-height: 1.35 !important;
   }
 
@@ -12536,8 +12571,9 @@ html.reveal-ready .reveal-item.is-revealed {
   .cta-band a.btn-wa,
   .cta-band .btn-wa,
   .cta-band--editorial .btn-wa {
-    padding: 12px 14px !important;
+    padding: 12px 20px !important;
     font-size: 0.88rem !important;
     gap: 8px !important;
+    white-space: nowrap !important;
   }
 }
