@@ -360,4 +360,23 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- BLOG ARTICLES - 11 SEPTEMBER 2026 (H-01) -->
+  <url>
+    <loc>https://venroroutbound.id/blog/mengasah-decision-making-outbound-karyawan.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://venroroutbound.id/blog/indoor-vs-outdoor-leadership-training.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://venroroutbound.id/blog/paket-outbound-leadership-training-batu-malang.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
