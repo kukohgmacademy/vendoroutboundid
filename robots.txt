@@ -1,4 +1,28 @@
 User-agent: *
 Allow: /
 
+# Google Search & AI Overviews
+User-agent: Googlebot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Bing Search & Microsoft Copilot
+User-agent: bingbot
+Allow: /
+User-agent: msnbot
+Allow: /
+User-agent: BingPreview
+Allow: /
+
+# OpenAI ChatGPT Search, Perplexity & Claude
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+
 Sitemap: https://venroroutbound.id/sitemap.xml

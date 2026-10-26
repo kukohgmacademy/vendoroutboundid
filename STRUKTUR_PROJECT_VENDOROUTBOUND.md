@@ -376,6 +376,6 @@ Halaman penanganan tautan rusak (*User-Friendly Error Page*):
 
 Project **vendoroutbound.id** merupakan website berbasis arsitektur **Modern Semantic Static Web** berkinerja tinggi yang menggabungkan:
 1. **Kecepatan & Ringannya Kode**: 100% Native HTML5, CSS3, dan Vanilla JS tanpa ketergantungan library pihak ketiga yang memperlambat LCP/FID.
-2. **Desain Visual Kelas Atas**: Nuansa *Luxury Maroon*, glassmorphism, tipografi modern Google Fonts (*Playfair Display, Outfit, Plus Jakarta Sans*), dan layout bento grid.
+2. **Desain Visual Kelas Atas**: Nuansa *Luxury Maroon*, glassmorphism, tipografi modern Google Fonts (*Plus Jakarta Sans, Outfit, Inter*), dan layout bento grid.
 3. **Konversi Lead Efektif**: Integrasi tombol aksi WhatsApp terstruktur pada setiap section utama, widget pencarian, dan kalkulator interaktif.
 4. **Kesiapan Mesin Pencari Masa Depan (SEO, AEO, GEO)**: Struktur semantic lengkap, answer-first framework, skema JSON-LD terhubung, dan topical authority dengan 93 artikel edukatif yang terindeks rapi pada sitemap XML.
