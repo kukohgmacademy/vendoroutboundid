@@ -15052,6 +15052,16 @@ p, .card-desc, .lead, .program-body p, .testi-quote,
   line-height: 1.4 !important;
 }
 
+a.contact-val {
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+a.contact-val:hover {
+  color: #FFB703 !important;
+  text-decoration: underline !important;
+}
+
 .contact-val.highlight {
   color: #FFB703 !important;
   font-size: 0.95rem !important;
