@@ -17988,7 +17988,7 @@ div[style*="margin-bottom: 32px"] h2 {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.6) !important;
   border-radius: 18px !important;
   padding: 8px !important;
-  display: flex !important;
+  display: flex;
   gap: 8px !important;
   overflow-x: auto !important;
   margin-bottom: 28px !important;
@@ -19587,3 +19587,100 @@ div[style*="margin-bottom: 32px"] h2 {
     font-size: 0.9rem !important;
   }
 }
+
+/* =========================================================
+   OFFICIAL WHATSAPP ICONS IN PACKAGE & ORDER BUTTONS
+   ========================================================= */
+.btn-package-wa-green i,
+.btn-package-wa-green .fab {
+  font-size: 1.15rem !important;
+  line-height: 1 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #FFFFFF !important;
+  flex-shrink: 0 !important;
+}
+
+.btn-prod-order-wa i,
+.btn-prod-order-wa .fab {
+  font-size: 1.35rem !important;
+  line-height: 1 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #FFFFFF !important;
+  flex-shrink: 0 !important;
+}
+
+.btn-sticky-wa i,
+.btn-sticky-wa .fab {
+  font-size: 1.25rem !important;
+  line-height: 1 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #FFFFFF !important;
+  flex-shrink: 0 !important;
+}
+
+.prod-share-btn.wa i,
+.prod-share-btn.wa .fab {
+  font-size: 1.15rem !important;
+  line-height: 1 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #FFFFFF !important;
+}
+
+/* =========================================================
+   DETAIL PAKET MOBILE MODE: LANGSUNG RUNDOWN
+   Hanya tampilkan Rundown pada mode mobile (<= 768px).
+   Sembunyikan navigasi 4 tab dan 3 panel fitur lainnya:
+   - Sasaran & Konsep / Overview
+   - Alur Perancangan / Modules
+   - Fasilitas & Pilihan Add-On / Inclusions
+   Mode Desktop (>= 769px) tetap utuh dengan 4 tab interaktif.
+   ========================================================= */
+@media (max-width: 768px) {
+  /* Sembunyikan bilah navigasi 4 tab di mobile */
+  .prod-tabs-header {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+
+  /* Sembunyikan 3 tab fitur yang tidak proporsional di mobile */
+  #tab-overview,
+  #tab-modules,
+  #tab-inclusions {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+
+  /* Langsung tampilkan Rundown secara sempurna di mobile */
+  #tab-rundown {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    transform: none !important;
+  }
+
+  .prod-details-container {
+    margin-top: 24px !important;
+  }
+
+  .prod-tab-content-wrapper {
+    padding: 0 !important;
+  }
+}
+
