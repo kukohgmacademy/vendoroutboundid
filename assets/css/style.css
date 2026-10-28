@@ -17468,13 +17468,8 @@ div[style*="margin-bottom: 32px"] h2 {
     height: 300px !important;
   }
   .geo-badge-float {
-    padding: 8px 12px !important;
-  }
-  .geo-badge-info strong {
-    font-size: 0.78rem !important;
-  }
-  .geo-badge-info span {
-    font-size: 0.68rem !important;
+    display: none !important;
+    visibility: hidden !important;
   }
 }
 
@@ -19683,4 +19678,64 @@ div[style*="margin-bottom: 32px"] h2 {
     padding: 0 !important;
   }
 }
+
+/* =========================================================
+   HOMEPAGE MOBILE CENTERING & GEO BADGE HIDING
+   1. Button "Tentang Filosofi Kami" & "Lihat Semua Galeri Foto" centered on mobile
+   2. Badges on "Keunggulan Geografis & Fasilitas" hidden on mobile
+   ========================================================= */
+@media (max-width: 768px) {
+  /* 1. Button Tentang Filosofi Kami posisi tengah di mobile */
+  .mission-actions {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin-top: 28px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .mission-actions .btn {
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  /* 2. Button Lihat Semua Galeri Foto posisi tengah di mobile */
+  .gallery-header-action {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin-top: 16px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .gallery-header-action .btn {
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  /* 3. Sembunyikan badge floating pada gambar Keunggulan Geografis di mobile agar gambar tidak tertutup */
+  .geo-badge-float {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+}
+
 
